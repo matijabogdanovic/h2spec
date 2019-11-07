@@ -2,6 +2,7 @@ package h2spec
 
 import (
 	"fmt"
+	"github.com/summerwind/h2spec/echoserver"
 	"time"
 
 	"github.com/summerwind/h2spec/client"
@@ -22,6 +23,7 @@ func Run(c *config.Config) (bool, error) {
 		generic.Spec(),
 		http2.Spec(),
 		hpack.Spec(),
+		echoserver.Spec(),
 	}
 
 	start := time.Now()

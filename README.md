@@ -68,6 +68,7 @@ Spec ID | Description
 http2 | Test cases for RFC 7540 (HTTP/2)
 hpack | Test cases for RFC 7541 (HPACK)
 generic | Generic test cases for HTTP/2 servers
+echoserver | Test cases for HTTP/2 echo servers
 
 ### Dryrun Mode
 

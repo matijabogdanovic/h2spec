@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	VERSION string = "2.0.0"
+	VERSION string = "2.4.0"
 	COMMIT  string = "(Unknown)"
 )
 
